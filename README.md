@@ -10,7 +10,7 @@ This method was made and tested using Python 3.10.6 with dependencies described 
 ## Getting startet
 It is recommended building a virtual environment for installing the required dependencies.  
 For conda, the following approach can be used after cloning this repository:  
-`$ conda create -n env_name`  
+`$ conda create -n env_name python==3.10`  
 `$ conda activate env_name`  
 `$ pip install -r requirements.txt`  
 Now the environment is ready for use.  
