@@ -1,0 +1,6 @@
+numpy==1.23.4
+scikit-learn==0.24.2
+vedo==2021.0.6
+vtk==9.2.2
+
+
