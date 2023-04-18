@@ -17,21 +17,21 @@ Now the environment is ready for use.
 
 ## Usage 
 usage: grid_cut.py [-h] [-A {man,max}] [-I INCLUSION] [-G GRID_SIZE] [--inspection] [-IN INPUT_PATH]  
-                   &emsp;[-OUT OUTPUT_PATH] [-N NAME]
+                   &emsp;&emsp;&emsp;[-OUT OUTPUT_PATH] [-N NAME]
   
 options:  
-  -h, --help            &emsp;show this help message and exit  
+  -h, --help            &emsp;&emsp;&emsp;show this help message and exit  
   -A {man,max}, --arch_type {man,max}  
-                        &emsp;Arch type: Either 'man' for mandible or 'max' for maxilla. Default: man  
+                        &emsp;&emsp;&emsp;Arch type: Either 'man' for mandible or 'max' for maxilla. Default: man  
   -I INCLUSION, --inclusion INCLUSION  
-                        &emsp;I value for inclusion threshold. Default: 8  
+                        &emsp;&emsp;&emsp;I value for inclusion threshold. Default: 8  
   -G GRID_SIZE, --grid_size GRID_SIZE  
-                        &emsp;Grid size. Default: 5  
-  --inspection          &emsp;Save intermediate files for inspection.  
+                        &emsp;&emsp;&emsp;Grid size. Default: 5  
+  --inspection          &emsp;&emsp;&emsp;Save intermediate files for inspection.  
   -IN INPUT_PATH, --input_path INPUT_PATH  
-                        &emsp;Path to input file.  
+                        &emsp;&emsp;&emsp;Path to input file.  
   -OUT OUTPUT_PATH, --output_path OUTPUT_PATH  
-                        &emsp;Path to output directory.  
+                        &emsp;&emsp;&emsp;Path to output directory.  
   -N NAME, --name NAME  Name of the final dentition model after cutting.  
   
   ## Examples
