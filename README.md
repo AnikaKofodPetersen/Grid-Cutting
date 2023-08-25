@@ -1,5 +1,5 @@
 # Grid-Cutting
-Introducing the Grid Cutting Method for removing soft tissue from Intraoral 3D photoscans.  
+Introducing the Grid-Cutting Method for removing soft tissue from Intraoral 3D photoscans.  
 This method is introduced in (insert publication link here) [Publication name](https://where_is.com/publication)  
 
 (Insert picture from publication here) ![Picture from publication](image.jpg)
