@@ -27,6 +27,8 @@ options:
                         &emsp;&emsp;&emsp;I value for inclusion threshold. Default: 8  
   -G GRID_SIZE, --grid_size GRID_SIZE  
                         &emsp;&emsp;&emsp;Grid size. Default: 5  
+  -R RATIO_OF INCLUSION, --ratio_of_inclusion RATIO_OF INCLUSION  
+                        &emsp;&emsp;&emsp;Ratio of z range for auto-inclusion. Default: 1/3  
   --inspection          &emsp;&emsp;&emsp;Save intermediate files for inspection.  
   -IN INPUT_PATH, --input_path INPUT_PATH  
                         &emsp;&emsp;&emsp;Path to input file.  
