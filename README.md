@@ -28,7 +28,7 @@ options:
   -G GRID_SIZE, --grid_size GRID_SIZE  
                         &emsp;&emsp;&emsp;Grid size. Default: 5  
   -R RATIO_OF INCLUSION, --ratio_of_inclusion RATIO_OF INCLUSION  
-                        &emsp;&emsp;&emsp;Ratio of z range for auto-inclusion. Default: 1/3  
+                        &emsp;&emsp;&emsp;Ratio of z range for auto-inclusion. Default: 0.33  
   --inspection          &emsp;&emsp;&emsp;Save intermediate files for inspection.  
   -IN INPUT_PATH, --input_path INPUT_PATH  
                         &emsp;&emsp;&emsp;Path to input file.  
@@ -37,5 +37,5 @@ options:
   -N NAME, --name NAME  Name of the final dentition model after cutting.  
   
   ## Examples
-  `$ python grid_cut.py -A max -I 7 -G 10 --inspection -IN path/to/input/file.stl -OUT path/to/output/directory`  
-  `$ python grid_cut.py --arch_type man --inclusion 2 --grid_size 5 --input_path path/to/input/file.vtp --output_path path/to/output/directory`  
+  `$ python grid_cut.py -A max -I 7 -G 10 -R 0.4 --inspection -IN path/to/input/file.stl -OUT path/to/output/directory`  
+  `$ python grid_cut.py --arch_type man --inclusion 2 --grid_size 5 --ratio_of_inclusion 0.3 --input_path path/to/input/file.vtp --output_path path/to/output/directory`  
